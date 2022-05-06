@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+
+<head>
+   <!-- Page setup -->
+   <meta charset="utf-8">
+   <title>Liam C</title>
+   <meta name="Liam Chiarelli developer portfolio" content="A portfolio of some work and information about technology and web developer career, skills and experience">
+   <meta name="author" content="Liam C, Liam Chiarelli, 38codes@gmail.com">
+
+   <!-- Responsive Viewport -->
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+   <link rel="icon" type="image/png" href="favicon.png">
+
+   <!-- Styling -->
+   <!-- Add support for google fonts? -->
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+   <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
+
+   <!-- Custom Styling -->
+   <link href="styles.css" rel="stylesheet" type="text/css" />
+
+   <script src="scripts.js"></script>
+
+</head>
+<header id="header">
+   <container>
+      <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
+      <ul class="main-menu">
+         <li><a href="index.html" class="current-page">home</a></li>
+         <li><a href="projects.html">coding</a></li>
+         <li><a href="finance.html">fintech</a></li>
+         <li><a href="gallery.html">art</a></li>
+         <li><a href="game.html">game</a></li>
+      </ul>
+      <h1>Finance</h1>
+
+
+      <!-- Price of Bitcoin embedded widget from https://coinlib.io -->
+      <div
+        style="width: 220px; height:220px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; block-size:220px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38;padding:1px;padding: 0px; margin: 0px;">
+         <div style="height:200px; padding:0px; margin:0px; width: 100%;"><iframe src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=859&pref_coin_id=1505" width="220" height="196px" scrolling="auto" marginwidth="0"
+              marginheight="0" frameborder="0" border="0" style="border:0;margin:0;padding:0;line-height:14px;"></iframe></div>
+         <div style="color: #626B7F; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;"><a href="https://coinlib.io" target="_blank"
+              style="font-weight: 500; color: #626B7F; text-decoration:none; font-size:11px">Cryptocurrency Prices</a>&nbsp;by Coinlib</div>
+      </div>
+      </body>
+   </container>
+   <!-- Image credit to: https://docs.defira.com/ -->
+   <img src="image/airshiploading.gif">
+
+</header>
+
+<body>
+</body>
+
+
+<footer>
+   <div
+     style="height:62px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; block-size:62px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38;padding:1px;padding: 0px; margin: 0px; width: 100%;">
+      <div style="height:40px; padding:0px; margin:0px; width: 100%;"><iframe src="https://widget.coinlib.io/widget?type=horizontal_v2&theme=dark&pref_coin_id=1505&invert_hover=" width="100%" height="36px" scrolling="auto" marginwidth="0"
+           marginheight="0" frameborder="0" border="0" style="border:0;margin:0;padding:0;"></iframe></div>
+      <div style="color: #626B7F; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;"><a href="https://coinlib.io" target="_blank"
+           style="font-weight: 500; color: #626B7F; text-decoration:none; font-size:11px">Cryptocurrency Prices</a>&nbsp;by Coinlib</div>
+   </div>
+
+   <!-- Use of Date.now() method - Code Credits from: https://geeksforgeeks.com -->
+   <script>
+      var d = Date(Date.now());
+
+      // Converting the number of millisecond in date string
+      a = d.toString()
+
+      // Printing the current date
+      document.write("The current date is: " + a)
+   </script>
+
+</footer>
+
+<!-- Load additional JS scripts here -->
+<script type="text/javascript" src="scripts.js"></script>
+
+
+</html>
